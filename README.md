@@ -2,7 +2,7 @@
 [![CircleCI](https://circleci.com/gh/apostrophecms/open-graph/tree/main.svg?style=svg)](https://circleci.com/gh/apostrophecms/open-graph/tree/main)
 [![Chat on Discord](https://img.shields.io/discord/517772094482677790.svg)](https://chat.apostrophecms.org)
 
-# [Open Graph](https://ogp.me/) for [ApostropheCMS](https://apostrophecms.com).
+# Open Graph fields for Apostrophe 3
 
 ## Installation
 

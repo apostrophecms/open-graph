@@ -1,7 +1,7 @@
 {
   "name": "@apostrophecms/open-graph",
   "version": "1.0.0",
-  "description": "Open Graph fields for ApostropheCMS",
+  "description": "Open Graph fields for Apostrophe 3",
   "main": "index.js",
   "scripts": {
     "lint": "npm run eslint",
