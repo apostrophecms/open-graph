@@ -35,8 +35,9 @@ module.exports = {
               'openGraphTitle',
               'openGraphDescription',
               'openGraphType',
-              'openGraphImage'
-            ]
+              '_openGraphImage'
+            ],
+            last: true
           }
         }
       };
