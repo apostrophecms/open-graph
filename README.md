@@ -1,4 +1,4 @@
-# apostrophe-open-graph
+# Open Graph
 [![CircleCI](https://circleci.com/gh/apostrophecms/open-graph/tree/main.svg?style=svg)](https://circleci.com/gh/apostrophecms/open-graph/tree/main)
 [![Chat on Discord](https://img.shields.io/discord/517772094482677790.svg)](https://chat.apostrophecms.org)
 
@@ -7,7 +7,7 @@
 ## Installation
 
 ```bash
-npm install apostrophe-open-graph
+npm install @apostrophecms/open-graph
 ```
 
 ## Use
