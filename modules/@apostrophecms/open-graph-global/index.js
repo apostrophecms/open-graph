@@ -1,5 +1,5 @@
 module.exports = {
-  improve: '@apostrophecms/user',
+  improve: '@apostrophecms/global',
   options: {
     openGraph: false
   }
