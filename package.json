@@ -1,7 +1,7 @@
 {
-  "name": "@apostrophecms/module-template",
+  "name": "@apostrophecms/open-graph",
   "version": "1.0.0",
-  "description": "A template for creating an ApostropheCMS 3 module.",
+  "description": "Open Graph fields for ApostropheCMS",
   "main": "index.js",
   "scripts": {
     "lint": "npm run eslint",
@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apostrophecms/@apostrophecms/module-template.git"
+    "url": "git+https://github.com/apostrophecms/@apostrophecms/open-graph.git"
   },
-  "homepage": "https://github.com/apostrophecms/@apostrophecms/module-template#readme",
+  "homepage": "https://github.com/apostrophecms/@apostrophecms/open-graph#readme",
   "author": "Apostrophe Technologies",
   "license": "MIT",
   "devDependencies": {
