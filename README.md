@@ -48,7 +48,7 @@ require('apostrophe')({
 ```
 ### Opting out of Open Graph Fields
 
-Any module can opt out of the Open Graph fields. This would likely be done on special page types or piece types that don't  have index or show pages. Simply add `openGraph: false` to the module's `options` object, like this:
+Adding `openGraph: false` to any module will prevent Open Graph fields from being added. Good use cases for this are utility modules, special page types, or piece types that don't have index or show pages.
 
 ```js
 require('apostrophe')({
