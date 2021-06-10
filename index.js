@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   options: {
-    alias: 'openGraph',
+    alias: 'openGraph'
   },
   bundle: {
     directory: 'modules',
@@ -20,7 +20,7 @@ module.exports = {
   },
   components(self) {
     return {
-      async tags(req, data) {},
+      async tags(req, data) {}
     };
   }
 };
