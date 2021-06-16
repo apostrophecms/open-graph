@@ -1,6 +1,6 @@
 {
   "name": "@apostrophecms/open-graph",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "description": "Open Graph fields for Apostrophe 3",
   "main": "index.js",
   "scripts": {
