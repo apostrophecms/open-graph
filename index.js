@@ -3,7 +3,11 @@ const path = require('path');
 
 module.exports = {
   options: {
-    alias: 'openGraph'
+    alias: 'openGraph',
+    i18n: {
+      ns: 'aposOg',
+      browser: true
+    }
   },
   bundle: {
     directory: 'modules',
