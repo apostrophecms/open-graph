@@ -5,32 +5,32 @@ module.exports = {
       return {
         add: {
           openGraphTitle: {
-            label: 'Open Graph Title',
+            label: 'aposOg:title',
             type: 'string',
-            help: 'The title of your content without any branding such as your site name.'
+            help: 'aposOg:titleHelp'
           },
           openGraphDescription: {
-            label: 'Open Graph Description',
+            label: 'aposOg:description',
             type: 'string',
             textarea: true,
-            help: 'A brief description of the content, usually between 2 and 4 sentences. This will displayed below the title of the post.'
+            help: 'aposOg:descriptionHelp'
           },
           openGraphType: {
-            label: 'Open Graph Type',
+            label: 'aposOg:type',
             type: 'string',
-            htmlHelp: 'The type of media of your content. See <a href="https://ogp.me/#types" target="_blank">https://ogp.me/#types</a>.'
+            htmlHelp: 'aposOg:typeHelp'
           },
           // TODO this needs minSize and aspectRatio options when they exist
           _openGraphImage: {
             type: 'relationship',
-            label: 'Open Graph Image',
+            label: 'aposOg:image',
             max: 1,
             withType: '@apostrophecms/image'
           }
         },
         group: {
           seo: {
-            label: 'Open Graph',
+            label: 'aposOg:group',
             fields: [
               'openGraphTitle',
               'openGraphDescription',
