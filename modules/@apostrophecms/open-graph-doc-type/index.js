@@ -29,7 +29,7 @@ module.exports = {
           }
         },
         group: {
-          seo: {
+          openGraph: {
             label: 'aposOg:group',
             fields: [
               'openGraphTitle',
