@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.2.0 (2021-11-15)
 
 * Adds Slovak (`sk`) locale strings for static text. Thanks to [Michael Huna](https://github.com/Miselrkba) for the contribution.
 
