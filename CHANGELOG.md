@@ -2,7 +2,7 @@
 
 ## UNRELEASED
 
-- Removes `apostrophe` as a peer dependency.
+* Removes `apostrophe` as a peer dependency.
 
 ## 1.2.0 (2021-11-15)
 
