@@ -13,9 +13,6 @@
   "homepage": "https://github.com/apostrophecms/open-graph#readme",
   "author": "Apostrophe Technologies",
   "license": "MIT",
-  "peerDependencies": {
-    "apostrophe": "^3.7.0"
-  },
   "devDependencies": {
     "eslint": "^7.9.0",
     "eslint-config-apostrophe": "^3.4.0",
