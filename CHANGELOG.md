@@ -1,6 +1,6 @@
 # Changelog
 
-## UNRELEASED
+## 1.2.2 (2024-09-05)
 
 * Updates the documentation and package description. No code changes.
 * Add AI and community-reviewed translation strings.
