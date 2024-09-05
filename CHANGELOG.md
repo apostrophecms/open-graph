@@ -3,6 +3,7 @@
 ## UNRELEASED
 
 * Updates the documentation and package description. No code changes.
+* Add AI and community-reviewed translation strings.
 
 ## 1.2.1 (2023-03-06)
 
