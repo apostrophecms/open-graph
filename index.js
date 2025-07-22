@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { getTags } = require('./lib/nodes');
 
 module.exports = {
   options: {
@@ -14,7 +15,7 @@ module.exports = {
     modules: getBundleModuleNames()
   },
   init(self) {
-    self.apos.template.append('head', '@apostrophecms/open-graph:tags');
+    self.appendNodes('head', 'tags');
     if (!self.apos.baseUrl) {
       self.apos.util.warnDevOnce(
         'aposOgBaseUrl',
@@ -22,9 +23,11 @@ module.exports = {
       );
     }
   },
-  components(self) {
+  methods(self) {
     return {
-      async tags(req, data) {}
+      tags(req) {
+        return getTags(req.data, self.apos);
+      }
     };
   }
 };
