@@ -4,7 +4,7 @@
 
 * Bumbs `eslint-config-apostrophe` to `5`, fixes errors, removes unused dependencies.
 * Removes circle ci, adds github actions.
-* Inject nodes instead async Nunjucks component to support external frontends.
+* Inject nodes instead of async Nunjucks component to support external frontends.
 
 ## 1.2.2 (2024-09-05)
 
