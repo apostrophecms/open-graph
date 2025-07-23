@@ -15,6 +15,8 @@
   </p>
 </div>
 
+## Compatibility
+This version requires the latest ApostropheCMS. When adding this module to an existing project, run `npm update` to ensure all ApostropheCMS modules are up-to-date.
 
 ## Installation
 
